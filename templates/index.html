@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Sudoku Game</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🧩 Sudoku Game</h1>
+
+    <div class="top-controls">
+
+        <div class="difficulty">
+            <label for="difficulty-select">Difficulty</label>
+
+            <select id="difficulty-select">
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+
+            <button id="new-game">
+                New Game
+            </button>
+
+            <button id="check-solution">
+                Check Solution
+            </button>
+
+            <button id="hint">
+                Hint
+            </button>
+
+            <button id="theme-toggle">
+                Dark Mode
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="status-bar">
+
+        <div id="timer">
+            Time: 00:00
+        </div>
+
+        <div id="message"></div>
+
+    </div>
+
+    <div id="sudoku-board"></div>
+
+    <div class="leaderboard">
+
+        <h2>🏆 Top 10 Leaderboard</h2>
+
+        <div class="leaderboard-controls">
+
+            <input
+                type="text"
+                id="player-name"
+                maxlength="20"
+                placeholder="Enter your name">
+
+            <button id="save-score">
+                Save Score
+            </button>
+
+        </div>
+
+        <!-- Reviewer required TABLE -->
+        <table id="leaderboard-table">
+
+            <thead>
+
+            <tr>
+
+                <th>Rank</th>
+
+                <th>Player</th>
+
+                <th>Time</th>
+
+                <th>Difficulty</th>
+
+                <th>Hints</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="leaderboard-body">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+
+</body>
+
+</html>
