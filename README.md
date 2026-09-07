@@ -1,7 +1,6 @@
 # Sudoku - Web Application
 
 A modern Flask-based Sudoku puzzle solver and game platform with an intuitive web interface.
-Testing verified
 
 ---
 
