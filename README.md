@@ -36,7 +36,10 @@ python -m pip install -r requirements.txt
 python app.py
 ```
 Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
+
+##
 Web View
+
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/4b3dd464-2007-464d-b0c8-0b5a001e58c9" />
 
 ##
