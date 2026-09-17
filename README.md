@@ -4,7 +4,7 @@ A modern Flask-based Sudoku puzzle solver and game platform with an intuitive we
 
 ---
 
-## ✅ Project Achievement xxxx
+## ✅ Project Achievement 
 
 **YOU DID IT! What an incredible achievement! 🎓🎉🚀**
 
