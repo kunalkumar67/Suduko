@@ -1,4 +1,4 @@
-# Sudoku - Web/Mob Compatible Application
+# Sudoku - Web/Mob Compatible Application xcxcxc
 
 A modern Flask-based Sudoku puzzle solver and game platform with an intuitive web interface, **built with GitHub Copilot** 🤖
 
